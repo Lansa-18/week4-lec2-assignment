@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "ETHER_VAULT",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "destroyAndSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "A fun game contract for teaching Solidity concepts. Players must send Ether via selfdestruct or deposit, solve challenges to increase their withdrawal limits, and withdraw Ether after a lock period. The contract owner manages the whitelist. See instructions: `https://tinyurl.com/EtherVault`",
+			"kind": "dev",
+			"methods": {},
+			"title": "EtherVault",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EtherVault.sol": "SelfDestructContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EtherVault.sol": {
+			"keccak256": "0xac01f74d44de1db6d91ea95c62c1051cf2ec3285190b90607ee32df9482f4018",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://611df9d3b7d8723fe5b4684bdadc3fe34e4af144b1825dc6db6c6c47c707996c",
+				"dweb:/ipfs/QmYiJGBxWHb11ZxPec1pqM4tf7osZkxeXmMe9y97yEH4gf"
+			]
+		}
+	},
+	"version": 1
+}
